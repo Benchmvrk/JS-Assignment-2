@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> New Wave Trivia </title>
+<!-- Reset CSS -->
+  <link rel="stylesheet" type="text/css" href="./reset.css" />
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="./style.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="./style.css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+</head>
+<body>
+<!-- wrap content in a fluid container -->
+<div class="container-fluid full">
+        <div class="container-fluid">
+            <!-- create header space with transparent jumbotron -->
+            <div class='jumbotron'>
+            </div>
+        <div class = 'row'>
+            <div class = 'col-md-4'>
+            </div>
+            <!-- center trivia game in middle of page -->
+            <div class = 'col-md-4 content'>
+
+                    <div class='header'>
+            
+                            <h1>New Wave Trivia</h1>
+            
+                        </div>
+            <!-- javascript game elements -->
+            <div class = 'buttonContainer'>
+                <button id ='startGameBtn' type='button' class='btn btn-dark btn-lg btn-block'>
+                    Eskeeeeeh!
+                </button>    
+            </div>
+            <div id=timeLeft></div>
+            <!-- questions -->
+            <div id=presentQuestion></div>
+            <div class='question'></div>
+              <!-- Answers to each question -->
+            <div class='answerArray'></div>
+            <div class='answerContainer'>
+            <div id=message></div>
+            <div id=correctedAnswer></div>
+            <div id=gif></div>
+            </div>
+            <!-- Final Page with Scores -->
+            <div id=finalMessage></div>
+            <div id=rightAnswers></div>
+            <div id=wrongAnswers></div>
+            <div id=notAnswered></div>
+        
+            <button id ='resetBtn' type="button" class="btn btn-dark"></button>
+            </div>
+
+            
+        </div>
+        </div>
+</div>
+
+
+<!-- javascript -->
+<script src="./app.js"></script>
+</body>

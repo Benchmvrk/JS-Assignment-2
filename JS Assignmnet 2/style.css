@@ -1,0 +1,39 @@
+body {
+    background: url('https://noticias.caracoltv.com/sites/default/files/kanye-west_2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+    font-family: 'Abril Fatface', cursive;
+} 
+
+.jumbotron {
+    background: transparent;
+}
+.content{
+    background-color: whitesmoke;
+    text-align:center;
+    opacity: 0.85;
+}
+
+.header {
+    text-align: center;
+    margin-bottom:10%;
+}
+
+.buttonContainer {
+    margin-bottom:10%;
+}
+
+#gif {
+ margin:5%;
+}
+
+#resetBtn {
+ margin:5%;
+}
+
+p:hover {
+    color:red;
+}
